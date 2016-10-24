@@ -1,3 +1,2 @@
-FROM gliderlabs/logspout:v3.1
+FROM gliderlabs/logspout:latest
 MAINTAINER Dao Hoang Son <daohoangson@gmail.com>
-
