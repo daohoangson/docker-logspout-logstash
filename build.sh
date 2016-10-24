@@ -1,5 +1,5 @@
 #!/bin/sh
-# set -e
+set -e
 apk add --update go git mercurial build-base
 mkdir -p /go/src/github.com/gliderlabs
 cp -r /src /go/src/github.com/gliderlabs/logspout

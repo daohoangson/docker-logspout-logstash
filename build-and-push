@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker build -t xfrocks/docker-logspout:logstash . \
+	&& docker push xfrocks/docker-logspout:logstash
